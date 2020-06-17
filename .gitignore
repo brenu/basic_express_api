@@ -1,3 +1,5 @@
+# Os módulos instalados, é totalmente desnecessário enviar pro GitHub
 node_modules
 
+# Minhas variáveis de ambiente, não é seguro entregar ao público
 .env
