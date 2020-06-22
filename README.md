@@ -13,8 +13,9 @@ This API is entirely developed using Node.js and Express. Maybe I will do an Ado
 - :beginner: **root**: actually, it has nothing that I would have to explain, just keep reading :D
 - :information_source: **src**: It's where you are going to find all the project code
   - :iphone: **app**: folder that contains the business rules of the application
-    - :label: **models**: folder that contains the models, which are strucutres that represents tables, but I like to see them as basic classes
     - :control_knobs: **controllers**: folder that contains the controllers, which are structures that manage the tables
+    - :arrows_counterclockwise: **middlewares**: folder that contains the middlewares, which are functions that take request data and manipulate that in order to achieve the application goals
+    - :label: **models**: folder that contains the models, which are strucutres that represents tables, but I like to see them as basic classes
   - :wrench: **config**: It's where you are going to find the configuration for installed modules and stuff like that. Example: Sequelize
   - :bar_chart: **database**: It's where you'll find code that is directly related to the database
     - :alarm_clock: **migrations**: folder that contains migrations, which are structures that help us with keeping the database version equal in every machine that runs the application
