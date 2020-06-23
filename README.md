@@ -35,6 +35,7 @@ After running npm install, you should open the **.env.example** file that's in t
     DB_PORT=3306
     DB_USERNAME=admin
     DB_PASSWORD=potatoes123
+    DB_NAME=database_api
 
 Once the file is configured, rename it as just **.env** :D
 
