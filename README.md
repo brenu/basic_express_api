@@ -21,6 +21,29 @@ This API is entirely developed using Node.js and Express. Maybe I will do an Ado
     - :alarm_clock: **migrations**: folder that contains migrations, which are structures that help us with keeping the database version equal in every machine that runs the application
     - :seedling: **seeds**: folder that contains seeders, which are structures that automatically populate the database with fake information. It's very useful for developing, because it takes way less time to test new stuff
 
+## Aww brenu, how do I run this weird thing?
+
+First of all, you definitely need to open your terminal and run de code below. Otherwise it just won't work.
+
+    npm install
+
+After running npm install, you should open the **.env.example** file that's in the project's root folder, and change the variables in a way that fits your environment. For example:
+
+    #DATABASE
+    DB_DIALECT=mariadb
+    DB_HOST=localhost
+    DB_PORT=3306
+    DB_USERNAME=admin
+    DB_PASSWORD=potatoes123
+
+Once the file is configured, rename it as just **.env** :D
+
+Now everything is supposed to be fine, so use on your terminal the following code:
+
+    npm run dev
+
+and voilà, the system must be working :)
+
 ## And if you want to...
 
 You have the right to use the code of this API in another application of yours. Also, I would love to
