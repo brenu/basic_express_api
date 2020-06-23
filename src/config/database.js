@@ -7,7 +7,7 @@ module.exports = {
   port: process.env['DB_PORT'],
   username: process.env['DB_USERNAME'],
   password: process.env['DB_PASSWORD'],
-  database: 'basic_express_api',
+  database: process.env['DB_NAME'],
   define: {
     timestamps: true,
     underscored: true,
