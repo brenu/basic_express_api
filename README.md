@@ -1,4 +1,4 @@
-# Basic Express API
+# Basic Express API - v1.0
 
 ## What it is
 
